@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content-one {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(155, 155, 245), rgb(92, 92, 245), rgb(238, 41, 152), rgb(232, 63, 91));
+    padding-top: 15px 50px;
+}
+
+.content-one .website {
+    color: rgb(147, 16, 16);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.content-one .title {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 5px 4px #24449e;
+    font-size: 4vw;
+}
+
+.content-one .footer {
+    color: #fff;
+    font-size: 1.6vw;
+    text-align: right;
+    margin-right: 20vw;
+}
+
+.content-one .footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.item {
+    color: rgb(69, 69, 229);
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.content-two {
+    background-image: linear-gradient(to right, rgb(187, 79, 57), rgb(229, 123, 116), rgb(222, 54, 194));
+    padding-bottom: 20px;
+}
+
+.two-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2em;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+#price {
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.introduce {
+    font-weight: 500;
+    padding: 10px 30px;
+    font-size: 1.3em;
+}
+
+.skills {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 2em;
+}
+
+.skill-detail {
+    padding-left: 40px;
+    font-size: 1.3em;
+}
+
+.content-three {
+    background-image: linear-gradient(to right, rgb(187, 79, 57), rgb(229, 123, 116), rgb(222, 54, 194));
+    margin: 20px 0px;
+}
+
+.image-center {
+    text-align: center;
+}
+
+.partner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-partner {
+    margin: 20px 50px;
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+}
+
+.card-partner img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.content-four {
+    background-image: linear-gradient(to right, rgb(214, 45, 157), rgb(167, 167, 233), rgb(98, 198, 232), rgb(182, 213, 223));
+    height: 1450px;
+}
+
+.feeling {
+    position: relative;
+}
+
+.student {
+    padding: 50px 0px;
+}
+
+.student img {
+    border-radius: 50%;
+}
+
+.student-info {
+    height: 45vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#review {
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+    padding: 25px;
+}
+
+.feeling-business {
+    position: relative;
+}
+
+.feeling-one {
+    position: absolute;
+    left: 65%;
+    top: 0;
+}
+
+.one-img {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+.one-feedback {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.name-feedback {
+    padding: 50px 20px 10px 20px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.fb-position {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.fb-content {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.feeling-two {
+    position: absolute;
+    left: 25%;
+    top: 180px;
+}
+
+.two-img {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+.two-feedback {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.feeling-three {
+    position: absolute;
+    left: 55%;
+    top: 480px;
+}
+
+.three-img {
+    position: absolute;
+    z-index: 1;
+    left: 80px;
+}
+
+.three-feedback {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}

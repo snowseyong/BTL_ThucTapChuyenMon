@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.d-flex{
+    display: flex;
+}
+.jus-content-between{
+    justify-content: space-between;
+}
+.logo img{
+    height: 50px;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    width: 1140px;
+    margin: auto;
+}
+header{
+    padding: 32px 0;
+    position: relative;
+}
+.menu-left li{
+    margin-right: 32px;
+}
+.menu-right li{
+    margin-left: 32px;
+}
+header a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+header a:hover{
+    color: rgb(205, 69, 69);
+}
+
+/*vị trí logo*/
+header .logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* 
+vị trí menu-child */
+header li{
+    position: relative;
+}
+header .menu-child{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #000;
+    padding: 16px;
+    display: none;
+    animation: menuChild .5s linear 1;
+}
+header li .menu-child a{
+    color: white;
+    white-space: nowrap;
+}
+header .menu-child li{
+    margin: 16px;
+}
+header li:hover .menu-child{
+    display: block;
+}
+@keyframes menuChild {
+    from{
+        top: 130%;
+        opacity: 0;
+    }
+    to{
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+/* BANNER*/
+.banner{
+    background-image: url("https://cms.curnonwatch.com/uploads/desktop_copy_05c3604f8e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px;
+    color: white;
+    text-align: center;
+    background-position: center;
+}
+.banner .content{
+    width: 40%;
+}
+.banner p{
+    text-transform: uppercase;
+}
+.text-bold{
+    font-weight: 600;
+}
+.text-extra-bold{
+    font-weight: 800;
+}
+.text-light{
+    font-weight: 300;
+}
+.banner h2{
+    font-size: 42px;
+    line-height: 42px;
+    margin: 8px 0;
+}
+.banner .title{
+    font-size: 14px;
+    text-transform: unset;
+    margin: 20px 0;
+}
+.banner a{
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 42px;
+    font-weight: 700;
+    margin: 16px 0;
+    transition: all .3s linear;
+}
+.banner a:hover{
+    background-color: #fff;
+    color: black;
+}
+.policy{
+    background-color: #ecebea;
+    padding: 20px 0;
+}
+.policy span{
+    font-size: 14px;
+}
+.category{
+    padding:32px 0;
+    cursor: pointer;
+}
+.category-item{
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 33%;
+    position: relative;
+}
+.category-item .info{
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+.category-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.category-item span{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+.category-item:hover span{
+    color: #000;
+    background-color: #fff;
+}
+.align-items-center{
+    align-items: center;
+}
+.products{
+    margin-top: 42px;
+}
+.content-products{
+    text-align: center;
+    padding-bottom: 42px;
+}
+.content-products h2{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    padding-bottom: 16px;
+}
+.content-products a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    color: #161a21;
+}
+.card-products{
+    width: 25%;
+    position: relative;
+    height: 400px;
+}
+.image-products{
+    position: relative;
+}
+.discount-price{
+    background-color: #ff5e57;
+    color: white;
+    font-weight: 700;
+    padding: 4px 6px;
+    width: 40px;
+    border-radius: 35%;
+    position: absolute;
+    top: 15px;
+}
+.add-to-cart{
+    position: absolute; 
+    border: 2px solid #f8f7f4;
+    text-transform: uppercase; 
+    font-weight: 700; 
+    font-size: 14px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding:10px 0;
+    display: none;
+}
+.add-to-cart a{
+    text-decoration: none;
+    color: black;
+}
+.infor-products{
+    text-align: center;
+}
+.infor-products h3{
+    font-size: 12px;
+    color: rgba(0,0,0,.6);
+    margin: 12px 0 0;
+}
+.title1{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 12px 0 0;
+}
+.prices{
+    color: #161a21;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 0 16px;
+}
+.prices span{
+    opacity: .6;
+    font-size: 12px;
+}
+.card-products:hover .add-to-cart{
+    display: block;
+    transition: all .3s linear;
+    background-color: lightgray;
+    font-weight: 700;
+}
+.card-products .add-to-cart:hover{
+    background-color: #000;
+    font-weight: 700;
+}
+
+.card-products .add-to-cart:hover a{
+    font-weight: 700;
+    color: white;
+}
